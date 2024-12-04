@@ -1,0 +1,10 @@
+# Exclude library
+insta-parsing
+
+# Exclude output files
+*.xlsx
+*.csv
+
+# Ignore specific folders
+.idea
+
