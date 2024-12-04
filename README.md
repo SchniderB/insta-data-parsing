@@ -2,14 +2,15 @@
 
 ## Aim of the project
 A friend needed to perform statistics on multiple months of Instagram posts of famous football clubs. I have therefore 
-established a simple workflow to programmatically extract Instagram posts for a set of accounts of interest for a given 
-time frame. This code is a convenience tool that makes use of your active Instagram session to extract the posts without 
-using Instagram's API.
+established a simple workflow to programmatically extract Instagram post metrics, such as the like and comment counts, 
+for a set of accounts of interest for a given time frame. This code is a convenience tool that makes use of your active 
+Instagram session to extract the posts without using Instagram's API. Please note that the code was written in June 2023 
+and could at some point not work anymore.
 
 ## Disclaimer
-Owing to the use of browser's cookies and your own Instagram account to access the posts programmatically, Instgram might 
+Owing to the use of browser's cookies and your own Instagram account to access the posts programmatically, Instagram might 
 notice an unusual activity on your account and temporarily block it. I therefore suggest you create a new Instagram account 
-specifically for the extraction, to protect your own account. This is script was made to provide publicly available data 
+specifically for the extraction, to protect your own account. This script was made to provide publicly available data 
 for a Master thesis, i.e. for an educational purpose, and I will not take any responsibility for any deviant use of my code.
 
 ## Dependencies
@@ -37,14 +38,14 @@ source insta-parsing/bin/activate
 ```
 
 ## Account permission
-### Connect to a secondary account on a browser (ideally Firefox)
+### Connect to a secondary account on Firefox
 
-## Store the cookies and session details to a local file
+### Store the cookies and session details to a local file
 ```bash
 python3 615_import_firefox_session.py
 ```
 
-## Define the accounts and time frame to target
+## Define the Instagram account list and time frame to target
 ### Fill the list of accounts of interest
 The list of Instagram accounts should be simply the account IDs formatted as shown in the file `clubs.txt`.
 

@@ -5,6 +5,7 @@ insta-parsing
 *.xlsx
 *.csv
 
-# Ignore specific folders
+# Ignore specific files and folders
 .idea
+.env
 
