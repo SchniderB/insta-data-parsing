@@ -1,16 +1,16 @@
 # Instructions to parse football club data from Instagram without using Instagram's API
 
 ## Aim of the project
-A friend needed to perform statistics on multiple months of Instagram posts of famous football clubs. I have therefore 
-established a simple workflow to programmatically extract Instagram post metrics, such as the like and comment counts, 
-for a set of accounts of interest for a given time frame. This code is a convenience tool that makes use of your active 
-Instagram session to extract the posts without using Instagram's API. Please note that the code was written in June 2023 
+A friend needed to perform statistics on multiple months of Instagram posts of famous football clubs. I have therefore
+established a simple workflow to programmatically extract Instagram post metrics, such as the like and comment counts,
+for a set of accounts of interest for a given time frame. This code is a convenience tool that makes use of your active
+Instagram session to extract the posts without using Instagram's API. Please note that the code was written in June 2023
 and could at some point not work anymore.
 
 ## Disclaimer
-Owing to the use of browser's cookies and your own Instagram account to access the posts programmatically, Instagram might 
-notice an unusual activity on your account and temporarily block it. I therefore suggest you create a new Instagram account 
-specifically for the extraction, to protect your own account. This script was made to provide publicly available data 
+Owing to the use of browser's cookies and your own Instagram account to access the posts programmatically, Instagram might
+notice an unusual activity on your account and temporarily block it. I therefore suggest you create a new Instagram account
+specifically for the extraction, to protect your own account. This script was made to provide publicly available data
 for a Master thesis, i.e. for an educational purpose, and I will not take any responsibility for any deviant use of my code.
 
 ## Dependencies
@@ -61,3 +61,8 @@ python3 insta_parsing.py
 
 ### Manual curation
 Verify the printed comments and repeat the download for the accounts which had an error.
+
+## Project Timeline
+- Start Date: June 2023
+- Completion Date: June 2023
+- Maintenance status: Inactive
